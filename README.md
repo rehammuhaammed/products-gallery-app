@@ -1,59 +1,66 @@
-# Ecommerce
+# 🛍️ Products Gallery App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+A modern, responsive **Angular eCommerce web app** powered by [Fake Store API](https://fakestoreapi.com).  
+Browse, search, filter, and view product details — all in a clean UI with Tailwind styling & Dark Mode support.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎯 Objective
 
-```bash
-ng serve
-```
+Deliver a slick shopping interface with dynamic product listing, filtering, sorting, category browsing, and smooth navigation — built with Angular 19+ + Tailwind.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ⚙️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- 🧠 **Angular** 19+
+- 🎨 **Tailwind CSS**
+- 🌐 **Fake Store API**
+- 🌙 **Dark Mode**
+- 🚦 Angular Routing & TypeScript
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🔥 Features
 
-```bash
-ng generate --help
-```
+### 🛒 Product Listing
 
-## Building
+- Fetches data from `https://fakestoreapi.com/products`
+- Responsive card layout
+- Displays:
+  - 🖼️ Image
+  - 📝 Title
+  - 💰 Price
 
-To build the project run:
+### 🔍 Filtering & Sorting
 
-```bash
-ng build
-```
+- Live search by product name (case-insensitive)
+- Sort dropdown:
+  - Price: Low → High / High → Low
+  - Name: A → Z
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 🧾 Categories View
 
-## Running unit tests
+- Fetches all product categories from the API
+- Displays categories in a clean, responsive layout
+- Clicking a category shows only its related products
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 📄 Product Details Page
 
-```bash
-ng test
-```
+- Dynamic route: `/products/:id`
+- Shows:
+  - 🖼️ Image
+  - 📝 Full Description
+  - 💰 Price
+  - 🏷️ Category
+  - ⭐️ Rating
 
-## Running end-to-end tests
+### 🌙 Optional Enhancements
 
-For end-to-end (e2e) testing, run:
+- ✅ Dark Mode Toggle
+- ✅ Product Rating Display
+- ✅ Loading States / Empty States
 
-```bash
-ng e2e
-```
+## 🌐 Live Demo
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
