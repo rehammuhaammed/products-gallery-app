@@ -1,0 +1,71 @@
+<nav class="relative rounded-[13px] text-maintext bg-gradient-to-r from-mainBg via-[#f6edd1] to-[#ecda9c] shadow-xl dark:bg-gradient-to-r dark:from-maintext dark:via-[#ecda9c] dark:to-[#ecda9c] dark:text-[#f9e7d9]">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-3 px-5 ">
+    <div class="flex flex-col items-start">
+  <a routerLink="/home" class= " w-[220px] relative flex items-center rtl:space-x-reverse">
+    <img src="/images/icon.png" class="h-[80px]" alt="Logo" />
+    <span class="logo text-[#be8c62] self-center text-[48px] font-semibold whitespace-nowrap dark:text-[#f9e7d9]">Velina</span>
+     <div class="text-[#b39b6e] text-[18px] absolute top-[58px] start-[18px] dark:text-[#f9e7d9] ">
+    {{ 'navbar.slogan' | translate }}
+  </div>
+  </a>
+ 
+</div>
+
+
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none">
+      <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+      </svg>
+    </button>
+
+    <div class="hidden text-[18px] text-mainColor w-full md:flex justify-between items-center grow md:w-auto" id="navbar-default">
+      <ul class=" capitalize flex flex-col  mt-4 border rounded-lg md:flex-row md:space-x-7 rtl:space-x-reverse md:mt-0 md:border-0">
+        
+          <li><a class="block py-2 px-3 md:p-2" routerLink="/home" routerLinkActive="bg-[#f2e2a8] dark:bg-[#baaa70] rounded-[16px]">{{ 'navbar.home' | translate }}</a></li>
+          <li><a class="block py-2 px-3 md:p-2" routerLink="/categories" routerLinkActive="bg-[#f2e2a8] dark:bg-[#baaa70] rounded-[16px]">{{ 'navbar.categories' | translate }}</a></li>
+          
+        
+      </ul>
+
+      <ul class=" capitalize items-center  flex flex-col  mt-4 border rounded-lg md:flex-row rtl:space-x-reverse md:mt-0 md:border-0">
+        
+              <li>
+                <button
+                  (click)="toggleDarkMode()"
+                  class="cursor-pointer flex relative top-[3px] items-center gap-1 py-2 px-3 text-[22px]">
+                  
+                  <i class="fa-solid" [class]="isDarkMode ? 'fa-sun' : 'fa-moon'"></i>
+
+                </button>
+          </li>
+        
+          <li [class.hidden]=" tranlation('en')">
+                <button (click)="changelang('en')" class="cursor-pointer flex relative top-[3px] items-center gap-1 py-2 px-3 text-[22px]">
+                  <i class="fa-solid fa-globe"></i>
+                  EN
+                </button>
+            </li>
+
+          <li [class.hidden]=" tranlation('ar')">
+                <button (click)="changelang('ar')" class="cursor-pointer flex relative top-[3px] items-center gap-1 py-2 px-3 text-[22px]">
+                  <i class="fa-solid fa-globe"></i>
+                  AR
+                </button>
+          </li>
+        
+        <li>
+          <a routerLink="/cart" routerLinkActive="bg-[#f2e2a8] dark:bg-[#baaa70] rounded-[12px]" class=" relative block cursor-pointer py-2 px-3 text-[25px]">
+            <i class="fa-solid fa-bag-shopping"></i>
+            
+              <span class="absolute border top-[9px] right-[3px] bg-[#EFE0AE]  text-[15px] min-w-[20px] h-[20px]
+                          rounded-full flex items-center justify-center font-semibold shadow-md">
+               {{cartItemsNumber()}}
+              </span>
+          </a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>

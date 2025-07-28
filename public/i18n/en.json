@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "slogan": "Elegance in Every Detail",
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "brands": "Brands",
+    "signOut": "Sign Out",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "popularCategories": "Popular Categories",
+    "popularProducts":"Popular Products",
+    "searchPlaceholder": "Search...",
+    "addToCart": "Add to Cart",
+    "priceUnit": "EGP",
+    "rating": "Rating",
+    "paginationDots": "...",
+    "moreProductsText": "You haven't seen everything yet .....",
+    "showingResults": "Showing",
+    "sortDefault": "Default",
+    "sortPriceLow": "Price: Low to High",
+    "sortPriceHigh": "Price: High to Low",
+    "sortRating": "Top Rated"
+  },
+   "product": {
+    "description": "Description",
+    "addToCart": "Add to cart",
+    "category": "Category",
+    "brand": "Brand",
+    "priceUnit": "EGP",
+    "ratingLabel": "Rating",
+    "Related Products": "Related Products"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "clear": "Clear Cart",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "orderTotal": "Order Total:",
+    "includes": "Includes tax and shipping",
+    "checkout": "Checkout",
+    "emptyTitle": "Your Cart is Empty",
+    "emptyText": "Looks like you haven't added anything yet.",
+    "browseProducts": "Browse Products",
+    "EGP": "EGP"
+  },
+  "sort":{
+    "sortby":"Sort by",
+    "Default":"Default",
+    "h-l":"Price: High to Low",
+    "l-h":"Price: Low to High",
+    "a-z":"Name: A → Z"
+  }
+
+}

@@ -1,0 +1,58 @@
+{
+  "navbar": {
+    "slogan": "الأناقة في كل تفصيلة",
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "categories": "الفئات",
+    "brands": "العلامات التجارية",
+    "signOut": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب"
+  },
+   "home": {
+    "popularCategories": "الفئات الشائعة",
+    "popularProducts":"المنتجات الشائعة",
+    "searchPlaceholder": "ابحث...",
+    "addToCart": "أضف إلى السلة",
+    "priceUnit": "ج.م",
+    "rating": "تقييم",
+    "paginationDots": "...",
+    "moreProductsText": "لم تشاهد كل شيء بعد .....",
+    "showingResults": "عدد المنتجات:",
+    "sortDefault": "الافتراضي",
+    "sortPriceLow": "السعر من الأقل",
+    "sortPriceHigh": "السعر من الأعلى",
+    "sortRating": "حسب التقييم"
+  },
+  "product": {
+    "description": "الوصف",
+    "addToCart": "أضف إلى السلة",
+    "category": "التصنيف",
+    "brand": "العلامة التجارية",
+    "priceUnit": "جنيه",
+    "ratingLabel": "التقييم",
+    "Related Products": "منتجات متشابهه"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "clear": "إفراغ السلة",
+    "product": "المنتج",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "remove": "إزالة",
+    "orderTotal": "إجمالي الطلب:",
+    "includes": "يشمل الضرائب والشحن",
+    "checkout": "إتمام الشراء",
+    "emptyTitle": "سلة التسوق فارغة",
+    "emptyText": "يبدو أنك لم تضف أي شيء بعد.",
+    "browseProducts": "تصفح المنتجات",
+     "EGP": "ج.م"
+  },
+  "sort":{
+  "sortby": "ترتيب حسب",
+  "Default": "الافتراضي",
+  "h-l": "السعر: من الأعلى إلى الأقل",
+  "l-h": "السعر: من الأقل إلى الأعلى",
+  "a-z": "الاسم: A-Z"
+  }
+}
