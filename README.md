@@ -62,6 +62,7 @@ Deliver a slick shopping interface with dynamic product listing, filtering, sort
 - ✅ Loading States / Empty States
 
 ## 🌐 Live Demo
-[https://products-gallery-app-vzcr.vercel.app/home](https://products-gallery-app-vzcr-git-master-riham-mohameds-projects.vercel.app/home)
+Vercel:products-gallery-app-vzcr.vercel.app
+
 
 ---
