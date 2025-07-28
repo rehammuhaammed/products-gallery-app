@@ -72,7 +72,7 @@
     class="w-full  bg-[#f9fbfc]  text-maintext px-4 py-2 rounded-xl shadow-sm text-sm font-medium flex items-center justify-around focus:outline-none cursor-pointer transition dark:bg-[#ceb991]  dark:text-[#f9fbfc]"
     (click)="isOpen = !isOpen"
   >
-    {{'sort.sortby'|translate}} :
+    {{'sort.sortby'|translate}} : {{sortOption}}
     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" stroke-width="2"
          viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
