@@ -1,8 +1,13 @@
 {
-    "rewrites":[
-        {
-            "source":"/(.*)",
-            "destination":"/index.html"
-        }
-    ]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "builds": [
+    {
+      "src": "dist/ecommerce/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
