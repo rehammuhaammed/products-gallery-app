@@ -1,4 +1,4 @@
-### 🛍️ Products Gallery App
+# 🛍️ Products Gallery App
 A modern, responsive Angular eCommerce web application powered by the Fake Store API.
 Browse, search, filter, and explore product details — all within a sleek UI styled with Tailwind CSS, complete with Dark Mode support.
 
