@@ -1,59 +1,63 @@
-# Ecommerce
+# 🛍️ Products Gallery App
+A modern, responsive Angular eCommerce web application powered by the Fake Store API.
+Browse, search, filter, and explore product details — all within a sleek UI styled with Tailwind CSS, complete with Dark Mode support.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+---
 
-## Development server
+### 🎯 Objective
+Build a smooth and intuitive shopping experience with:
 
-To start a local development server, run:
+Dynamic product listing
+
+Search, filter & sort functionality
+
+Category-based browsing
+
+Responsive product details view
+
+Clean UI & dark/light theme switch
+All built with Angular 19+ and Tailwind CSS.
+
+------
+
+### ⚙️ Tech Stack
+
+| 🧩 Technology                    | 💬 Description                                                    |
+|----------------------------------|--------------------------------------------------------------------|
+| 🧠 **Angular 19+**               | Core framework used for building the SPA                           |
+| 🎨 **Tailwind CSS**              | Utility-first CSS framework for fast and modern UI development     |
+| 🌐 **Fake Store API**            | Public REST API providing product and category data                |
+| 🌙 **Dark Mode Support**         | Enhances user experience with theme toggling                       |
+| 🚦 **Angular Routing + TypeScript** | Enables page navigation and strong typing in the app             |
+
+-----
+## 🔥 Features Overview
+
+| ✅ Feature                            | 💬 Description                                                                 |
+|--------------------------------------|---------------------------------------------------------------------------------|
+| 🖼️ **Product Gallery**                | Displays all products in a responsive card layout                              |
+| 📄 **Product Details Page**           | Dynamic route (`/products/:id`) shows full details (image, price, rating, etc.)|
+| 🔍 **Search & Sort**                  | Live search by product name, sort by price or name (A→Z, Low→High, etc.)       |
+| 🗂️ **Categories View**                | Lists all categories from API in a clean grid layout                           |
+| 📂 **Specific Category View**         | Filters and displays products of selected category dynamically                 |
+| 🛒 **Cart System**                    | Add/remove items, view total price, and delete items from the cart             |
+| 🔁 **Loading & Error Handling**       | Loading spinners and graceful API error handling                               |
+| 🌙 **Dark Mode Toggle**               | Allows users to switch between light and dark themes                           |
+| 📱 **Responsive Design**              | Mobile-first layout optimized for all screen sizes                             |
+
+## 🌐 Live Demo
+https://products-gallery-app-vzcr.vercel.app
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### Clone the project and install dependencies:
 
 ```bash
+git clone https://github.com/rehammuhaammed/products-gallery-app.git
+cd products-gallery-app
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
